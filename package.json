@@ -42,10 +42,10 @@
       "safari": [ 5.1],
       "opera": [ 12 ]
     },
-    "harness":"mocha",
-    "files": "test/*.coffee"
+    "harness": "mocha",
+    "files": "test/EventDispatcher.mocha.coffee"
   },
   "scripts": {
-    "test": "mocha test/*.coffee"
+    "test": "mocha test/EventDispatcher.mocha.coffee"
   }
 }
