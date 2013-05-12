@@ -33,5 +33,16 @@
     "mocha": "*",
     "sinon": "*"
   },
-  "optionalDependencies": {}
+  "optionalDependencies": {},
+  "testling": {
+    "files": "test/*.coffee",
+    "browsers": {
+      "ie": [ 8, 9 ],
+      "firefox": [ 13 ],
+      "chrome": [ 20 ],
+      "safari": [ 5.1],
+      "opera": [ 12 ]
+    },
+    "harness":"mocha"
+  }
 }
